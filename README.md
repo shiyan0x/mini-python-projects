@@ -13,7 +13,9 @@ Currently, I'm practicing codes in the following areas:
 *   **loop/** - Basic control flow, loops (`for`, `while`), and algorithmic practice.
 *   **numpy/** - Practice with NumPy for numerical computation and arrays.
 *   **opps/** - Object-Oriented Programming (OOP) concepts like classes, inheritance, and encapsulation.
+*   **leetcode practice/** - Practice solutions for various algorithm problems.
 *   **pandas_matplotlib/** - Learning Data Analysis and Data Visualization using Pandas and Matplotlib.
+*   **quize/** - A command-line quiz application with JSON-based file handling.
 *   **tkinter/** - Building graphical user interfaces (GUIs) using Tkinter.
 
 ## Note
