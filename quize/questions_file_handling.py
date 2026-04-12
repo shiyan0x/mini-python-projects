@@ -5,10 +5,10 @@ filename = "questions.json"
 def add_question():
     question = input("Enter your question: ")
     answer = input("Enter your answer: ")
-    data = {"question": question, "answer": answer}
+    data = [question, answer]
     try:
         with open(filename, "r") as f:
-            content = jason.load(f)
+            content = json.load(f)
     except:
         content = []
 
@@ -16,4 +16,8 @@ def add_question():
     with open(filename, "w") as f:
         json.dump(content, f, indent=4)
 
-add_question()
+while True:
+    add_question()
+    choice = input("Do you want to add another question?: ")
+    if choice.lower() != "yes" and choice.lower() != "y":
+        break
